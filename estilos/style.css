@@ -2,7 +2,73 @@
 
 /*
 paleta de cores:
-lilás:5f2c82
+lilás:#5f2c82
 verde:#49a09d
 */
+/* para telas pequenas: até 600px*/
 
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color:#5f2c82 ;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+   
+}
+#login{
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.632);
+    overflow: hidden;
+}
+#imagem{
+    background-image: url(../imagens/pexels-vinícius-estevão-2896036\ \(1\).jpg);
+    height: 200px;
+    background-position: center center;
+}
+#formulario{
+    text-align: center;
+}
+#form-v{
+    padding: 15px;
+}
+h1{
+    margin-bottom: 15px;
+}
+
+#iemail{
+    padding: 5px;
+    background-color:#49a09d ;
+    margin-right: 5px;
+    border-radius: 5px;
+   
+}
+#senha{
+    background-color: #5f2c82;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+#email{
+    background-color: #5f2c82;
+    border-radius: 6px;
+}
+#isenha{
+    padding: 5px;
+    margin-right: 5px;
+    background-color:#49a09d ;
+   border-radius: 5px;
+}
