@@ -13,6 +13,7 @@ telas grandes (tv): acima de 1200px*/
    section#login{
     width: 85vw;
     font-size: 1.2em;
+    height: 350px;
     }
     #form-v{
         padding: 50px;
@@ -33,5 +34,6 @@ telas grandes (tv): acima de 1200px*/
     section#login{
      width: 930px;
      font-size: 1.2em;
+     height: 500px;
     }
  }
