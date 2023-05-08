@@ -27,8 +27,8 @@ main{
 }
 #login{
     background-color: white;
-    width: 250px;
-    height: 500px;
+    width: 300px;
+    height: 530px;
     margin: auto;
     border-radius: 15px;
     margin-top: 100px;
@@ -39,15 +39,18 @@ main{
     background-image: url(../imagens/pexels-vinícius-estevão-2896036\ \(1\).jpg);
     height: 200px;
     background-position: center center;
+    display: block;
 }
 #formulario{
     text-align: center;
+    display: block;
 }
 #form-v{
     padding: 15px;
 }
 h1{
     margin-bottom: 15px;
+    padding-top: 10px;
 }
 
 #iemail{
@@ -71,4 +74,26 @@ h1{
     margin-right: 5px;
     background-color:#49a09d ;
    border-radius: 5px;
+}
+form > p > input[type=submit] {
+    display: block;
+    font-size: 1em ;
+    background-color: #49a09d;
+    width: 100%;
+    height: 40px;
+    color: white;
+    border-radius: 5px ;
+    cursor: pointer;
+    margin-top: 10px;
+}
+form > p > input[type=reset]{
+    display: block;
+    font-size: 1em;
+    margin-top: 10px;
+    background-color: #49a09d;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
 }

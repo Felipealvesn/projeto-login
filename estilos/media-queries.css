@@ -7,6 +7,31 @@ desktops: 992 até  1200px
 telas grandes (tv): acima de 1200px*/
 
 @media screen and (min-width: 798px) and (max-width: 992px){
-    
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+   section#login{
+    width: 85vw;
+    font-size: 1.2em;
+    }
+    #form-v{
+        padding: 50px;
+        float: right;
+        width: 65%;
+        height: 100%;
+    }
+    #imagem{
+        float: left;
+        width: 35%;
+        height: 100%;
+    }
 }
-
+ @media screen and (min-width: 992px) and (max-width: 1200px) {
+    body{
+        background-image: linear-gradient(to top,#49a09d, #5f2c82);
+    }
+    section#login{
+     width: 930px;
+     font-size: 1.2em;
+    }
+ }
